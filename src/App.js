@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Gallery from './Componentes/Ejercicio1';
+import Form from './Componentes/Ejercicio2';
+import FeedbackForm from './Componentes/Ejercicio3';
+import FeedbackForm2 from './Componentes/Ejercicio4';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="App">
+            <h2>Ejercicio 1</h2>
+            <Gallery />
+            <h2>Ejercicio 2</h2>
+            <Form />
+            <h2>Ejercicio 3</h2>
+            <FeedbackForm />
+            <h2>Ejercicio 4</h2>
+            <FeedbackForm2 />
+        </div>
+    );
 }
-
-export default App;
